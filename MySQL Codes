@@ -1,1 +1,15 @@
+Create Database Covid19ManagementSystem;
 
+Use Covid19ManagementSystem;
+
+Create table Patients 
+(SrNo bigint primary key, 
+name varchar(30) not null, 
+age int(3) not null, 
+city varchar(30) not null, 
+state varchar(30) not null, 
+PhoneNumber varchar(10) not null, 
+BloodGroup varchar(9));
+
+insert into patients 
+values (1,'Devarsh Sharma',16,'Surat','Gujarat','9601335038','B+');
