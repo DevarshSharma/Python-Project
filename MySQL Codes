@@ -12,4 +12,5 @@ PhoneNumber varchar(10) not null,
 BloodGroup varchar(9));
 
 insert into patients 
-values (1,'Devarsh Sharma',16,'Surat','Gujarat','9601335038','B+');
+values (1,'Devarsh Sharma',16,'C-101 Stuti Arista Opp Eden Enclave Palanpore','Surat','Gujarat','9601335038','B+');
+
