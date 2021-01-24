@@ -1,16 +1,50 @@
-Create Database Covid19ManagementSystem;
+create database covid_management;
+use covid_management;
 
-Use Covid19ManagementSystem;
 
-Create table Patients 
-(SrNo bigint primary key, 
-name varchar(30) not null, 
-age int(3) not null, 
-city varchar(30) not null, 
-state varchar(30) not null, 
-PhoneNumber varchar(10) not null, 
-BloodGroup varchar(9));
+create table patients
+(sno bigint primary key,
+ name varchar(30) not null,
+ age int(3) not null,
+ city varchar(30) not null,
+ state varchar(30) not null,
+ phone_no bigint not null,
+ Bloodgroup varchar(4) not null,
+ gender varchar(3) not null,
+ date Date not null);
 
 insert into patients 
-values (1,'Devarsh Sharma',16,'C-101 Stuti Arista Opp Eden Enclave Palanpore','Surat','Gujarat','9601335038','B+');
+values (1,'Devarsh',16,'Surat','Gujarat',9601335038,'B+','M','2020-04-04');
 
+insert into patients
+values (2,'Manish',40,'Surat','Gujarat',9227009076,'B+','M','2020-05-13');
+
+insert into patients
+values (3,'Suresh',17,'Rajkot','Gujarat',9825033897,'O+','M','2020-07-28');
+
+insert into patients
+values (4,'Pankaj',36,'Bhilwara','Rajasthan',9825033897,'A+,'M','2020-09-18');
+
+insert into patients
+values (5,'Kiran',26,'Amravati','Maharashtra',8347922004,'O-','F','2020-04-30');
+
+insert into patients
+values (6,'Dipika',30,'Udaipur','Rajasthan',9427462462,'O+','F','2020-05-20');
+
+insert into patients
+values (7,'Shreya',20,'Indore','Madhya Pradesh',8866002026,'A-','F','2020-07-18');
+
+insert into patients
+values (8,'Gev',32,'Mandi','Himachal Pradesh',9428406923,'AB+','M','2020-05-29');
+
+insert into patients
+values (9,'Niharika',38,'Hyderabad','Telengana',9909941609,'AB-','F',2020-12-25);
+
+insert into patients
+values (10,'Smita',33,'Rohatak','Hariyana',9427348772,'B-','F','2020-11-16');
+
+insert into patients
+values (11,'Palak',63,'Panjim','Goa',7622933049,'A-','F','2020-10-19');
+
+insert into patients
+values (12,'Arvind',89,'Amritsar','Panjab',9824703045,'B+','M','2020-10-28');
