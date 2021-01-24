@@ -23,7 +23,7 @@ insert into patients
 values (3,'Suresh',17,'Rajkot','Gujarat',9825033897,'O+','M','2020-07-28');
 
 insert into patients
-values (4,'Pankaj',36,'Bhilwara','Rajasthan',9825033897,'A+,'M','2020-09-18');
+values (4,'Pankaj',36,'Bhilwara','Rajasthan',9825033897,'A+','M','2020-09-18');
 
 insert into patients
 values (5,'Kiran',26,'Amravati','Maharashtra',8347922004,'O-','F','2020-04-30');
@@ -38,7 +38,7 @@ insert into patients
 values (8,'Gev',32,'Mandi','Himachal Pradesh',9428406923,'AB+','M','2020-05-29');
 
 insert into patients
-values (9,'Niharika',38,'Hyderabad','Telengana',9909941609,'AB-','F',2020-12-25);
+values (9,'Niharika',38,'Hyderabad','Telengana',9909941609,'AB-','F','2020-12-25');
 
 insert into patients
 values (10,'Smita',33,'Rohatak','Hariyana',9427348772,'B-','F','2020-11-16');
@@ -59,17 +59,29 @@ insert into patients
 values (15,'Jay',79,'Agra','Uttar Pradesh',9979868136,'A+','M','2020-11-14');
 
 insert into patients
-values (16,'Mohit',90,'Raipur','Chhattisghar',9687605766,'O+','2020-08-15');
+values (16,'Mohit',90,'Raipur','Chhattisghar',9687605766,'O+','M','2020-08-15');
 
 insert into patients
-values (17,'Subhajeet',96,'Jhansi','Uttar Pradesh',9825059900,'A+','2020-07-23');
+values (17,'Subhajeet',96,'Jhansi','Uttar Pradesh',9825059900,'A+','M','2020-07-23');
 
 insert into patients
-values (18,'Vanshil',100,'Tirupati','Andhra Pradesh',9979894678,'B+','2020-12-25');
+values (18,'Vanshil',100,'Tirupati','Andhra Pradesh',9979894678,'B+','M','2020-12-25');
 
 insert into patients
-values (19,'Aditiya',110,'Rampur','Uttar Pradesh',9824058398,'O+','2020-07-28');
+values (19,'Aditiya',110,'Rampur','Uttar Pradesh',9824058398,'O+','M','2020-07-28');
 
 insert into patients
-values (20,'Anil',76,'Sri Nagar','Jammu',9099948833,'B+','2020-09-19');
+values (20,'Anil',76,'Sri Nagar','Jammu',9099948833,'B+','M','2020-09-19');
 
+
+
+create table staff
+(sno bigint primary key,
+ name varchar (30) not null,
+ age bigint not null,
+ gender varchar(6) not null,
+ post varchar(30) not null,
+ salary bigint not null);
+
+insert into staff
+values 
