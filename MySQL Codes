@@ -3,14 +3,14 @@ use covid_management;
 
 
 create table patients
-(sno bigint primary key,
- name varchar(30) not null,
- age int(3) not null,
+(sno varchar(25) primary key,
+ name varchar(25) not null,
+ age int not null,
  city varchar(30) not null,
  state varchar(30) not null,
  phone_no bigint not null,
- Bloodgroup varchar(4) not null,
- gender varchar(3) not null,
+ Bloodgroup varchar(10) not null,
+ gender varchar(2) not null,
  date Date not null);
 
 insert into patients 
@@ -76,12 +76,12 @@ values (20,'Anil',76,'Sri Nagar','Jammu',9099948833,'B+','M','2020-09-19');
 
 
 create table staff
-(sno bigint primary key,
- name varchar (30) not null,
- age bigint not null,
- gender varchar(6) not null,
- post varchar(30) not null,
- salary bigint not null);
+(sno varchar(25) primary key,
+ name varchar (25) not null,
+ age int not null,
+ gender char(1) not null,
+ post varchar(25) not null,
+ salary int not null);
 
 insert into staff
 values (1,'Suresh',46,'M','Doctor',100000);
@@ -89,4 +89,6 @@ values (1,'Suresh',46,'M','Doctor',100000);
 insert into staff
 values (2,'Kashish',25,'F','Nurse',10000);
 
-insert into 
+insert into staff
+values (3,'Arin',28
+values (3,
