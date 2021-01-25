@@ -84,4 +84,9 @@ create table staff
  salary bigint not null);
 
 insert into staff
-values 
+values (1,'Suresh',46,'M','Doctor',100000);
+
+insert into staff
+values (2,'Kashish',25,'F','Nurse',10000);
+
+insert into 
