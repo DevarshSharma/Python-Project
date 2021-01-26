@@ -84,11 +84,61 @@ create table staff
  salary int not null);
 
 insert into staff
-values (1,'Suresh',46,'M','Doctor',100000);
+values (1,'Suresh',46,'M','CONSULTANT GASTROENTROLOGIST',100000);
 
 insert into staff
-values (2,'Kashish',25,'F','Nurse',10000);
+values (2,'Kashish',25,'F','NURSE',10000);
 
 insert into staff
-values (3,'Arin',28
-values (3,
+values (3,'Arin',60,'M','CONSULTANT PHYSICIAN',80000);
+
+insert into staff
+values (4,'Bhawin',50,'M','GENERAL SURGEON',150000);
+
+insert into staff
+values (5,'Mihir',45,'M','CONSULTANT GASTROENTROLOGIST',120000);
+
+insert into staff
+values (6,'Aditiya',48,'M','FAMILY PHYSICIAN',140000);
+
+insert into staff
+values (7,'Aditi',53,'F','GENERAL SURGEON',130000);
+
+insert into staff
+values (8,'Vipul',49,'M','CONSULTANT GASTROENTROLOGIST',110000);
+
+insert into staff
+values (9,'Sandeep',39,'M','CONSULTANT PHYSICIAN',100000);
+
+insert into staff
+values (10,'Nikita',41,'F','GENERAL SURGEON',98000);
+
+insert into staff
+values (11,'Neeky',54,'F','CONSULTANT PHYSICIAN',67900);
+
+insert into staff
+values (12,'Gaurav',58,'M','GENERAL SURGEON',134400);
+
+insert into staff
+values (13,'Chentan',64,'M','CONSULTANT PHYSICIAN',128700);
+
+insert into staff
+values (14,'Jignesh',51,'M','GENERAL SURGEON',190000);
+
+insert into staff
+values (15,'Bhumi',48,'F','GENERAL PHYSICIAN',200000);
+
+insert into staff
+values (16,'Disha',28,'F','NURSE',30000);
+
+insert into staff
+values (17,'Kriti',56,'F','GENERAL GASTROENTROLOGIST',170000);
+
+insert into staff
+values (18,'Ronak',50,'M','CONSULTANT PHYSICIAN',125000);
+
+insert into staff
+values (19,'Mitali',48,'F','GENERAL SURGEON',140000);
+
+insert into staff
+values (20,'Shobha',41,'F','CONSULTANT PHYSICIAN',137000);
