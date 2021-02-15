@@ -25,56 +25,6 @@ values (3,'Suresh',17,'Rajkot','Gujarat',9825033897,'O+','M','2020-07-28');
 insert into patients
 values (4,'Pankaj',36,'Bhilwara','Rajasthan',9825033897,'A+','M','2020-09-18');
 
-insert into patients
-values (5,'Kiran',26,'Amravati','Maharashtra',8347922004,'O-','F','2020-04-30');
-
-insert into patients
-values (6,'Dipika',30,'Udaipur','Rajasthan',9427462462,'O+','F','2020-05-20');
-
-insert into patients
-values (7,'Shreya',20,'Indore','Madhya Pradesh',8866002026,'A-','F','2020-07-18');
-
-insert into patients
-values (8,'Gev',32,'Mandi','Himachal Pradesh',9428406923,'AB+','M','2020-05-29');
-
-insert into patients
-values (9,'Niharika',38,'Hyderabad','Telengana',9909941609,'AB-','F','2020-12-25');
-
-insert into patients
-values (10,'Smita',33,'Rohatak','Hariyana',9427348772,'B-','F','2020-11-16');
-
-insert into patients
-values (11,'Palak',63,'Panjim','Goa',7622933049,'A-','F','2020-10-19');
-
-insert into patients
-values (12,'Arvind',89,'Amritsar','Panjab',9824703045,'B+','M','2020-10-28');
-
-insert into patients
-values (13,'Sumita',56,'Bihar','Uttar Pradesh',7878637878,'AB+','F','2020-08-08');
-
-insert into patients
-values (14,'Preeti',65,'Chennai','Tamil Nadu',8860861535,'B+','F','2020-06-29');
-
-insert into patients
-values (15,'Jay',79,'Agra','Uttar Pradesh',9979868136,'A+','M','2020-11-14');
-
-insert into patients
-values (16,'Mohit',90,'Raipur','Chhattisghar',9687605766,'O+','M','2020-08-15');
-
-insert into patients
-values (17,'Subhajeet',96,'Jhansi','Uttar Pradesh',9825059900,'A+','M','2020-07-23');
-
-insert into patients
-values (18,'Vanshil',100,'Tirupati','Andhra Pradesh',9979894678,'B+','M','2020-12-25');
-
-insert into patients
-values (19,'Aditiya',110,'Rampur','Uttar Pradesh',9824058398,'O+','M','2020-07-28');
-
-insert into patients
-values (20,'Anil',76,'Sri Nagar','Jammu',9099948833,'B+','M','2020-09-19');
-
-
-
 create table staff
 (sno varchar(25) primary key,
  name varchar (25) not null,
@@ -95,50 +45,3 @@ values (3,'Arin',60,'M','CONSULTANT PHYSICIAN',80000);
 insert into staff
 values (4,'Bhawin',50,'M','GENERAL SURGEON',150000);
 
-insert into staff
-values (5,'Mihir',45,'M','CONSULTANT GASTROENTROLOGIST',120000);
-
-insert into staff
-values (6,'Aditiya',48,'M','FAMILY PHYSICIAN',140000);
-
-insert into staff
-values (7,'Aditi',53,'F','GENERAL SURGEON',130000);
-
-insert into staff
-values (8,'Vipul',49,'M','CONSULTANT GASTROENTROLOGIST',110000);
-
-insert into staff
-values (9,'Sandeep',39,'M','CONSULTANT PHYSICIAN',100000);
-
-insert into staff
-values (10,'Nikita',41,'F','GENERAL SURGEON',98000);
-
-insert into staff
-values (11,'Neeky',54,'F','CONSULTANT PHYSICIAN',67900);
-
-insert into staff
-values (12,'Gaurav',58,'M','GENERAL SURGEON',134400);
-
-insert into staff
-values (13,'Chentan',64,'M','CONSULTANT PHYSICIAN',128700);
-
-insert into staff
-values (14,'Jignesh',51,'M','GENERAL SURGEON',190000);
-
-insert into staff
-values (15,'Bhumi',48,'F','GENERAL PHYSICIAN',200000);
-
-insert into staff
-values (16,'Disha',28,'F','NURSE',30000);
-
-insert into staff
-values (17,'Kriti',56,'F','GENERAL GASTROENTROLOGIST',170000);
-
-insert into staff
-values (18,'Ronak',50,'M','CONSULTANT PHYSICIAN',125000);
-
-insert into staff
-values (19,'Mitali',48,'F','GENERAL SURGEON',140000);
-
-insert into staff
-values (20,'Shobha',41,'F','CONSULTANT PHYSICIAN',137000);
